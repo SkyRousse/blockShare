@@ -6,7 +6,6 @@ export default Ember.Route.extend({
   },
   actions: {
     saveListing(params) {
-      debugger;
       var newListing = this.store.createRecord('listing', params);
       var category = params.category;
       category.get('listings').addObject(newListing);
@@ -15,7 +14,6 @@ export default Ember.Route.extend({
       });
     },
     sendToCart() {
-      debugger;
       this.transitionTo('cart');
     }
   }

@@ -1,5 +1,8 @@
 {{#each shoppingCart.items as |item|}}
   {{item.name}} -- {{item.pricePerDay}}
+  <button class="btn-remove" {{action 'removeFromCart' item}}>Remove</button>
 {{/each}}
 
 <p>There are {{shoppingCart.items.length}} items in your cart</p>
+
+<h4>your total is: {{shoppingCart.total}}</h4>
