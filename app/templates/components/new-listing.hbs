@@ -1,0 +1,24 @@
+<h3>Add listing</h3>
+<form class="listing-form">
+  <div class="form-group">
+    <label for="name">Item name:</label>
+    {{input value=name id="name"}}
+  </div>
+  <div class="form-group">
+    <label for="description">Description:</label>
+    {{input value=description id="description"}}
+  </div>
+  <div class="form-group">
+    <label for="location">Location:</label>
+    {{input value=location id="location"}}
+  </div>
+  <div class="form-group">
+    <label for="pricePerDay">Price Per Day:</label>
+    {{input value=pricePerDay id="pricePerDay"}}
+  </div>
+  <div class="form-group">
+    <label for="image">image url:</label>
+    {{input value=image id="image"}}
+  </div>
+  <button class="btn-save" {{action 'saveListing'}}>Save</button>
+</form>

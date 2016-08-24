@@ -3,5 +3,14 @@
 </div>
 
 <div class="listings">
-  <p>add listings here</p>
+  <h3>Listings</h3>
+    {{#each category.listings as |listing|}}
+      <div class="listing-item">
+        <img src="{{listing.image}}">
+        <h4>{{listing.name}}</h4>
+        <h5>{{listing.pricePerDay}}</h5>
+        <h5>{{listing.location}}</h5>
+        <button class="btn-save" {{action 'addToCart' listing}}>Add to Cart</button>
+      </div>
+    {{/each}}
 </div>
