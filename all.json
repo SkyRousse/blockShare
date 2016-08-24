@@ -1,0 +1,32 @@
+{ "categories": [{
+    "name": "Tools"
+  }, {
+    "name": "Services"
+  }, {
+    "name": "Party Gear"
+  }, {
+    "name": "Bikes"
+  }],
+  "listings": [{
+      "name": "Patio Set",
+      "description": "Seats 4, includes a table and 4 chairs.",
+      "pricePerDay": 40,
+      "image": "http://www.gardencourts.com/sites/default/files/styles/large/public/floorplans-2BR_0.jpg?itok=gA8xhPMd",
+      "location": "SE Portland",
+      "rating": 5
+  }, {
+      "name": "Lawn Mower",
+      "description": "Works great. Handpush.",
+      "pricePerDay": 20,
+      "image": "http://www.gardencourts.com/sites/default/files/styles/large/public/floorplans-2BR_0.jpg?itok=gA8xhPMd",
+      "location": "NE Portland",
+      "rating": 5
+  }, {
+      "name": "Bike",
+      "description": "Yellow kids bike.",
+      "pricePerDay": 10,
+      "image": "http://www.gardencourts.com/sites/default/files/styles/large/public/floorplans-2BR_0.jpg?itok=gA8xhPMd",
+      "location": "N Portland",
+      "rating": 2
+  }]
+}
