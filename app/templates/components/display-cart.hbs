@@ -1,3 +1,5 @@
 {{#each shoppingCart.items as |item|}}
   {{item.name}} -- {{item.pricePerDay}}
 {{/each}}
+
+<p>There are {{shoppingCart.items.length}} items in your cart</p>
