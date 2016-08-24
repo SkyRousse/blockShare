@@ -1,6 +1,6 @@
-<h1>Category List</h1>
-<ul>
-  {{#each categories as |category|}}
-    <li>{{category.name}}</li>
-  {{/each}}
-</ul>
+
+{{#link-to 'category' category.id}}
+  <li>
+    {{category.name}}
+  </li>
+{{/link-to}}

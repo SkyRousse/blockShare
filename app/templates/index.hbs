@@ -1,1 +1,6 @@
-{{category-list categories=model}}
+
+<ul>
+  {{#each model as |category|}}
+    {{category-list category=category}}
+  {{/each}}
+</ul>
