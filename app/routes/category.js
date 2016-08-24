@@ -13,6 +13,10 @@ export default Ember.Route.extend({
       newListing.save().then(function() {
         return category.save();
       });
+    },
+    sendToCart() {
+      debugger;
+      this.transitionTo('cart');
     }
   }
 });
