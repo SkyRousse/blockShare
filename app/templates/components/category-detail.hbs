@@ -7,7 +7,7 @@
       <h3 class="list-view-title">{{listing.description}}</h3>
       <div class="by-line">
         <span class="author">{{listing.location}}</span>
-        <span class="timestamp"> Day ${{listing.pricePerDay}}</span>
+        <span class="timestamp"> Day ${{listing.pricePerDay}} {{listing-rank listing}}</span>
       </div>
     </div>
   {{/each}}
