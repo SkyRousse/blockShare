@@ -1,3 +1,24 @@
-<h2 id="title">Welcome to Ember</h2>
+<input type="checkbox" id="menu">
+<label class="menu-icon" for="menu" onclick></label>
 
-{{outlet}}
+<nav role="off-canvas">
+    <ul>
+        <li>{{#link-to 'index'}}Home{{/link-to}}</li>
+        <li>{{#link-to 'index'}}About<{{/link-to}}</li>
+        <li>{{#link-to 'index'}}Policy{{/link-to}}</li>
+        <li>{{#link-to 'index'}}Sign Up{{/link-to}}</li>
+        <li>{{#link-to 'index'}}Create Listing{{/link-to}}</li>
+    </ul>
+</nav>
+<div class="main-container">
+  <div class="top-heading">
+    <h1>blockShare</h1>
+    <h2>find what you need | rent what you own</h2>
+  </div>
+    {{outlet}}
+</div>
+<footer>
+  <p>
+    Site Created by | Maldon Meehan & Sky Rousse
+  </p>
+</footer>
