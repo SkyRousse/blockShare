@@ -512,3 +512,10 @@ nav[role="off-canvas"] {
     margin-right:-($menu_width + $content_offset);
   }
 }
+
+.cart-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2em;
+}
